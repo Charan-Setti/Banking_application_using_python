@@ -2,6 +2,7 @@ import mysql.connector
 
 # Establishing connection to MySQL database
 mydb = mysql.connector.connect(host='localhost', user='root', password='root', database='bank_application')
+#In the place of user and password "use your user name and password" 
 cursor = mydb.cursor()
 
 class Reg:
